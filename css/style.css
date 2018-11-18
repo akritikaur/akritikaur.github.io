@@ -66,7 +66,7 @@ hr {
 }
 /* Navigation */
 #menu {
-	padding: 15px;
+	padding: 5px;
 	transition: all 0.8s;
 }
 #menu.navbar-default {
@@ -74,7 +74,7 @@ hr {
 	
 }
 #menu a.navbar-brand {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
 	color: #333;
