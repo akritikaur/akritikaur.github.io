@@ -601,14 +601,15 @@ color: #777;
 
 
 .project-heading h1{
-font-size: 28px;
+font-size: 26px;
 	color: #EC3F75;
-	text-align: center;
+	text-align: left;
 	vertical-align: middle;
-	margin-top: 6%;
-	letter-spacing: 7px;
-	font-weight: 350;
-	word-spacing: 10px;
+	margin-top: 5%;
+	letter-spacing: 4px;
+	font-weight: 370;
+	word-spacing: 8px;
+	margin-left: 10%;
 
 }
 
@@ -618,7 +619,7 @@ font-size: 28px;
 	 color: #000; 
 	 font-weight: 10;
 	 font-size: 15px;
-	 margin-top: 3%;
+	 margin-top: 2%;
 	 margin-left: 10%;
 	 margin-right: 10%;
 	 line-height: 180%;
@@ -630,10 +631,24 @@ font-size: 28px;
 	 color: #000; 
 	 font-weight: 10;
 	 font-size: 15px;
-	 margin-top: 3%;
+	 margin-top: 2%;
 	 margin-left: 11%;
 	 margin-right: 10%;
 	 line-height: 180%;
+}
+
+
+.project-heading-1 h1{
+font-size: 26px;
+	color: #5A3FEC;
+	text-align: left;
+	vertical-align: middle;
+	margin-top: 5%;
+	letter-spacing: 4px;
+	font-weight: 370;
+	word-spacing: 8px;
+	margin-left: 10%;
+
 }
 
 
