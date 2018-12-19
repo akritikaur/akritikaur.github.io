@@ -651,7 +651,18 @@ font-size: 26px;
 	margin-left: 10%;
 
 }
+.project-heading-3 h1{
+font-size: 26px;
+	color: #0B61C6;
+	text-align: left;
+	vertical-align: middle;
+	margin-top: 4%;
+	letter-spacing: 4px;
+	font-weight: 370;
+	word-spacing: 8px;
+	margin-left: 10%;
 
+}
 .project-heading-4 h1{
 font-size: 26px;
 	color: #19C1C1;
@@ -667,6 +678,19 @@ font-size: 26px;
 .project-heading-5 h1{
 font-size: 26px;
 	color: #4C5B93;
+	text-align: left;
+	vertical-align: middle;
+	margin-top: 4%;
+	letter-spacing: 4px;
+	font-weight: 370;
+	word-spacing: 8px;
+	margin-left: 10%;
+
+}
+
+.project-heading-l h1{
+font-size: 26px;
+	color: #A45BE2;
 	text-align: left;
 	vertical-align: middle;
 	margin-top: 4%;
