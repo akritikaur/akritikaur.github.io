@@ -7,6 +7,10 @@ body, html {
 	width: 100% !important;
 	height: 100% !important;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 h2, h3, h4 {
 	font-family: 'Open sans', sans-serif;
 }
@@ -67,7 +71,7 @@ hr {
 }
 /* Navigation */
 #menu {
-	padding: 5px;
+	padding: 5px  ;
 	transition: all 0.8s;
 }
 #menu.navbar-default {
@@ -87,7 +91,7 @@ hr {
 	color: #555;
 	font-size: 15px;
 	font-weight: 400;
-	padding: 8px 2px;
+	padding: 8px 2px 8px 2px;
 	border-radius: 0;
 	margin: 9px 20px 0 20px;
 }
@@ -246,7 +250,8 @@ header .intro-text {
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
-/* About Section */
+/*
+/* About Section 
 #about {
 	padding: 100px 0;
 }
@@ -292,7 +297,7 @@ header .intro-text {
 #about p {
 	line-height: 24px;
 	margin: 30px 0;
-}
+} */
 /* Services Section */
 #services {
 	padding: 100px 0;
@@ -355,7 +360,7 @@ header .intro-text {
 	text-align: center;
 	margin: 0 auto;
 	color: #E01937;
-	background: #000;
+	background: #F4F4F4;
 	padding: 37% 0 0 0;
 	height: 100%;
 	width: 100%;
@@ -388,10 +393,20 @@ header .intro-text {
 	
 }
 .hover-bg:hover .hover-text {
-	opacity: 0.8;
+	opacity: 0.95;
 	
 	
 
+}
+
+
+#publications {
+	padding: 100px 0px 0px 0px;
+}
+
+
+#about {
+	padding: 70px 0px 0px 0px;
 }
 /* Testimonials Section */
 #testimonials {
@@ -606,8 +621,8 @@ font-size: 26px;
 	text-align: left;
 	vertical-align: middle;
 	margin-top: 4%;
-	letter-spacing: 4px;
-	font-weight: 370;
+	letter-spacing: 2px;
+	font-weight: 380;
 	word-spacing: 8px;
 	margin-left: 10%;
 
@@ -645,8 +660,8 @@ font-size: 26px;
 	text-align: left;
 	vertical-align: middle;
 	margin-top: 4%;
-	letter-spacing: 4px;
-	font-weight: 370;
+	letter-spacing: 2px;
+	font-weight: 380;
 	word-spacing: 8px;
 	margin-left: 10%;
 
@@ -657,8 +672,8 @@ font-size: 26px;
 	text-align: left;
 	vertical-align: middle;
 	margin-top: 4%;
-	letter-spacing: 4px;
-	font-weight: 370;
+	letter-spacing: 2px;
+	font-weight: 380;
 	word-spacing: 8px;
 	margin-left: 10%;
 
@@ -669,8 +684,8 @@ font-size: 26px;
 	text-align: left;
 	vertical-align: middle;
 	margin-top: 4%;
-	letter-spacing: 4px;
-	font-weight: 370;
+	letter-spacing: 2px;
+	font-weight: 380;
 	word-spacing: 8px;
 	margin-left: 10%;
 
@@ -681,8 +696,8 @@ font-size: 26px;
 	text-align: left;
 	vertical-align: middle;
 	margin-top: 4%;
-	letter-spacing: 4px;
-	font-weight: 370;
+	letter-spacing: 2px;
+	font-weight: 380;
 	word-spacing: 8px;
 	margin-left: 10%;
 
@@ -690,12 +705,12 @@ font-size: 26px;
 
 .project-heading-l h1{
 font-size: 26px;
-	color: #A45BE2;
+	color: #5900A5;
 	text-align: left;
 	vertical-align: middle;
 	margin-top: 4%;
-	letter-spacing: 4px;
-	font-weight: 370;
+	letter-spacing: 2px;
+	font-weight: 380;
 	word-spacing: 8px;
 	margin-left: 10%;
 
