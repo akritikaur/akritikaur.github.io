@@ -732,19 +732,20 @@ font-size: 26px;
 }
 
 .iframe-container {
-    position: relative;
-    overflow: hidden;
-    padding-top: 56.25%;
-   	padding-left: 10%;
-  	padding-right: 10%;
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
 }
+ 
 .iframe-container iframe {
-  position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
+   border: 0;
+   height: 70%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 70%;
+   
+
 }
 
 
